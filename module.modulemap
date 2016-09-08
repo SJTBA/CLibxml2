@@ -1,0 +1,7 @@
+module CLibxml2 [system] {
+    header "libxml/tree.h"
+    header "libxml/xpath.h"
+    header "libxml/xpathInternals.h"
+    link "xml2"
+    export *
+}
