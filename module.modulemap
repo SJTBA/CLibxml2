@@ -3,6 +3,7 @@ module CLibxml2 [system] {
     header "libxml/xpath.h"
     header "libxml/xpathInternals.h"
     header "libxml/HTMLparser.h"
+    header "libxml/HTMLtree.h"
     link "xml2"
     export *
 }
