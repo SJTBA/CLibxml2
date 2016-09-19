@@ -5,6 +5,6 @@ let package = Package(
     pkgConfig: "libxml-2.0",
     providers: [
         .Brew("libxml2"),
-        .Apt("libxml2")
+        .Apt("libxml2-dev")
     ]
 )
